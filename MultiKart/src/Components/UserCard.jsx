@@ -23,7 +23,7 @@ const UserCard = () => {
             >{`${user.firstName} ${user.lastName}`}</h2>
             <p className={styles.userDetailsEmail}>{user.email}</p>
             <p>
-              {/* Status: */}
+              Status:
               {user.status === "Active" ? (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
