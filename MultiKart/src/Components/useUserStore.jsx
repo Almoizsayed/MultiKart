@@ -7,7 +7,7 @@ const useUserStore = create((set) => ({
       firstName: "Michael",
       lastName: "Jordan",
       email: "michael.jordan@example.com",
-      status: "active",
+      status: "Active",
       photo: "https://via.placeholder.com/100",
     },
     {
@@ -15,7 +15,7 @@ const useUserStore = create((set) => ({
       firstName: "LeBron",
       lastName: "James",
       email: "lebron.james@example.com",
-      status: "inactive",
+      status: "Inactive",
       photo: "https://via.placeholder.com/100",
     },
     {
@@ -23,7 +23,7 @@ const useUserStore = create((set) => ({
       firstName: "Kobe",
       lastName: "Bryant",
       email: "kobe.bryant@example.com",
-      status: "active",
+      status: "Active",
       photo: "https://via.placeholder.com/100",
     },
     {
@@ -31,7 +31,7 @@ const useUserStore = create((set) => ({
       firstName: "Stephen",
       lastName: "Curry",
       email: "stephen.curry@example.com",
-      status: "inactive",
+      status: "Inactive",
       photo: "https://via.placeholder.com/100",
     },
     {
@@ -39,7 +39,7 @@ const useUserStore = create((set) => ({
       firstName: "Kevin",
       lastName: "Durant",
       email: "kevin.durant@example.com",
-      status: "active",
+      status: "Active",
       photo: "https://via.placeholder.com/100",
     },
     {
@@ -47,7 +47,7 @@ const useUserStore = create((set) => ({
       firstName: "Tim",
       lastName: "Duncan",
       email: "tim.duncan@example.com",
-      status: "inactive",
+      status: "Inactive",
       photo: "https://via.placeholder.com/100",
     },
     {
@@ -55,7 +55,7 @@ const useUserStore = create((set) => ({
       firstName: "Shaquille",
       lastName: "O'Neal",
       email: "shaquille.oneal@example.com",
-      status: "active",
+      status: "Active",
       photo: "https://via.placeholder.com/100",
     },
     {
@@ -63,7 +63,7 @@ const useUserStore = create((set) => ({
       firstName: "Larry",
       lastName: "Bird",
       email: "larry.bird@example.com",
-      status: "inactive",
+      status: "Inactive",
       photo: "https://via.placeholder.com/100",
     },
     {
@@ -71,7 +71,7 @@ const useUserStore = create((set) => ({
       firstName: "Magic",
       lastName: "Johnson",
       email: "magic.johnson@example.com",
-      status: "active",
+      status: "Active",
       photo: "https://via.placeholder.com/100",
     },
     {
@@ -79,7 +79,23 @@ const useUserStore = create((set) => ({
       firstName: "Wilt",
       lastName: "Chamberlain",
       email: "wilt.chamberlain@example.com",
-      status: "inactive",
+      status: "Inactive",
+      photo: "https://via.placeholder.com/100",
+    },
+    {
+      id: 11,
+      firstName: "Serena",
+      lastName: "Williams",
+      email: "serena.williams@example.com",
+      status: "Inactive",
+      photo: "https://via.placeholder.com/100",
+    },
+    {
+      id: 12,
+      firstName: "Lionel",
+      lastName: "Messi",
+      email: "lionel.messi@example.com",
+      status: "Active",
       photo: "https://via.placeholder.com/100",
     },
   ],
